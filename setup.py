@@ -12,18 +12,17 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="fslparser",
-    version="0.0.1",
+    version="0.0.2",
     author="Fatemeh",
     author_email="",
     description="fsl-parser",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="",
-    packages=setuptools.find_packages(),
+    packages=['fslparser',],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    install_requires=[ 'pandas>=0.20.3',],
 )
