@@ -1,6 +1,6 @@
 # fsl-parser-package
 
-This package includes fsl_parser, that parses the freesurfer files (specified in inputspec.json) as dependencies and returns the covariates (X) and dependent (y) matrices as dataframes. A sample inputspec.json can be found in tests. 
+This package includes fsl_parser, that parses the freesurfer files (specified in inputspec.json) as dependencies and returns the covariates (X) and dependent (y) matrices as dataframes. A sample inputspec.json can be found in test. 
 # How to install
 pip install fslparser
 # How to run
