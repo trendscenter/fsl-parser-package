@@ -6,5 +6,5 @@ pip install fslparser
 # How to run
 import fslparser \
 from fslparser import parsers \
-args = json.loads(sys.stdin.read())
+args = json.loads(sys.stdin.read()) \
 (X, y) = parsers.fsl_parser(args) 
